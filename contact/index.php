@@ -1,4 +1,5 @@
 <?php
+session_start();
   $title = 'ContactUs';
   include '../includes/header.php';
   ?>
