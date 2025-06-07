@@ -34,11 +34,11 @@
 
 ## 📁 Project Structure
 
-- `/includes` – Database connection setup  
-- `/controllers` – Handles logic for login, product management, etc.  
-- `/views` – Customer and admin interfaces  
+- `/includes` – Database connection setup and other backend files
+- `/staff` – User interfaces  
 - `/prescriptions` – Stores prescriptions
 - `/includes/uploads` – Stores product images  
+- `/assets` - Stores external resources
 - `/css` – Stores CSS files
 - `/js` - Stores JS files
 - `/images` - Stores images such as logo  
