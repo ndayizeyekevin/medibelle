@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <p>If you did not send this, please ignore the email.</p>
         <p>Here is a copy of your message:</p>
         <blockquote style='border-left: 4px solid #ccc; padding-left: 10px;'>" . nl2br($message) . "</blockquote>
-        <p style='margin-top: 10px;'>Best regards,<br><strong>MediBelle Team</strong></p>
+        <p style='margin-top: 10px;'>Best regards,<br><strong>{$config['supportTeam']}</strong></p>
     ";
 
     $sentUser = sendEmail(

@@ -8,5 +8,6 @@ return [
     'phpmailer_src'             => '../assets/phpmailer/src',
     'officialWebsite'           => 'http://127.0.0.1/cosmeticsstore/',
     'location'                  => 'KG 60 Ave',
+    'supportTeam'               => 'MediBelle Team',
 ];
 ?>

@@ -116,6 +116,10 @@ if (isset($_POST['login'])) {
                 </form>
 
                 <div class="text-center mt-3">
+                    <div class="text-center mb-2">
+
+                        <a href="../accountrecovery">Forgot Password?</a>
+                    </div>
                     <a href="../">← Back to Home</a>
                 </div>
             </div>
