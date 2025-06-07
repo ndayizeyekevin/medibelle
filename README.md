@@ -14,7 +14,7 @@
 
 ## 🔧 Tech Stack
 
-- **Backend:** PHP (with PDO)
+- **Backend:** PHP (with PDO), AJAX
 - **Database:** MySQL
 - **Frontend:** HTML, CSS, Bootstrap5, JavaScript
 - **Integration:** Email notifications
@@ -29,6 +29,7 @@
 - 📦 Cart, checkout, and order tracking  
 - 📊 Admin panel for product, stock, and user management  
 - 📸 Upload product images and detailed descriptions
+- 🧾 Export orders report to either Excel or PDF 
 
 ---
 
