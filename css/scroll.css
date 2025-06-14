@@ -1,9 +1,0 @@
-/* Scroll Button */
-.scrolling-div {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap;
-    gap: 20px;
-    padding: 10px;
-  }
