@@ -1,0 +1,235 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  /* font-weight: 500; */
+}
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #343a40; /* Dark background */
+    color: #fff;
+    overflow-y: auto;
+    transition: all 0.3s;
+  }
+  .sidebar .profile {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #2c3e50;
+  }
+  .sidebar .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .sidebar .profile span {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .sidebar .search {
+    padding: 15px;
+    border-bottom: 1px solid #2c3e50;
+  }
+  .sidebar .search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .sidebar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .sidebar .menu ul li {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .sidebar .menu ul li:hover {
+    /* background-color: #2c3e50; */
+    color: #fff;
+  }
+  .sidebar .menu ul li a {
+    text-decoration: none;
+    align-items: center;
+    color: inherit;
+    gap: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .sidebar .menu ul li .submenu {
+    list-style: none;
+    padding-left: 15px;
+    display: none;
+  }
+  .sidebar .menu ul li.show .submenu {
+    display: block;
+    width: 100%;
+  }
+
+
+  /* Optional: Custom styles */
+  .nav-status  {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0d6efd;
+
+  }
+
+  /* Main content styles */
+  .content {
+    margin-left: 250px;
+  }
+  .header {
+    height: 20vh;
+    /* background-color: #343a40; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .charts-container {
+    padding: 20px;
+  }
+  /* Ensure all chart canvases have the same fixed height */
+  .chart-canvas {
+    height: 300px !important;
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .content {
+      min-height: 100vh;
+      margin-left: 0;
+    }
+  }
+
+
+  .chart-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Optional custom styles */
+    .form-container {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .side-bar1 {
+      color: #00f;
+    }
+    .side-bar1 a:hover {
+      color: #000;
+      padding: 5px;
+    }
+
+    .side-bar1 ul li {
+      list-style: none;
+      font-size: 20px;
+      display: inline;
+      padding: 5px;
+    }
+    /* Style for per-column search inputs */
+    tfoot input {
+      width: 100%;
+      padding: 3px;
+      box-sizing: border-box;
+    }
+
+
+    /* CSS for Scroll to Top button */
+    #scrollToTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      width: 60px;
+      height: 60px;
+      color: white;
+      background-color: rgb(21, 91, 195) !important;
+      text-align: center !important;
+      padding-top: 10px;    
+      border-radius: 50% !important;
+      border: none;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    #scrollToTopBtn i {
+        /* font-weight: large; */
+        padding-top: 5px;
+        font-size: 30px;
+    }
+
+
+    #scrollToTopBtn:hover {
+        background-color: #00f !important;
+    }
+
+    @media (max-width: 767.98px) {
+      .hide-on-small {
+        display: none !important;
+      }
+    }
+
+    .text-justify {
+      text-align: justify !important;
+    }
+
+          
+    .staff-form input, 
+    .staff-form select, 
+    .staff-form textarea {
+        border: 2px solid #0d6efd !important; /* 2px solid grey border */
+        border-radius: 4px !important;
+        transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth effect */
+    }
+    .staff-form ::placeholder, .staff-form select {
+      color:#000 !important;
+      font-weight: 400;
+    }
+    .staff-form input {
+      font-weight: 400;
+      
+      color: #0d6efd !important;
+    }
+    /* Highlight on hover */
+    .staff-form input:hover, 
+    .staff-form select:hover, 
+    .staff-form textarea:hover {
+        border-color: red !important;
+    }
+    .staff-form a,
+    #contactForm a {
+        color: #0d6efd !important;
+        font-weight: 400;
+    }
+
+    .staff-form a:hover,
+    #contactForm a:hover {
+        color: #198754 !important;
+        /* font-weight: bold; */
+        text-decoration: underline ;
+    }
+
+
+    /* Highlight on focus */
+    .staff-form input:focus, 
+    .staff-form select:focus, 
+    .staff-form textarea:focus {
+        border-color: blue !important; /* Change border to blue */
+        box-shadow: 0 0 8px rgba(0, 0, 255, 0.5) !important; /* Blue glow effect */
+        outline: none; /* Remove default browser outline */
+    }
