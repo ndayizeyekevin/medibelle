@@ -7,7 +7,7 @@
   <div class="container">
     <div class="container mb-4">
       <h1 class="mb-4">Terms of Service and Policy of Use</h1>
-      <p><em>Last Updated: [Insert Date]</em></p>
+      <p><em>Last Updated: </em><strong>June 2<sup>nd</sup>, 2025</strong></p>
       
       <div class="section">
         <h2>1. Introduction</h2>

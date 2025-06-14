@@ -85,7 +85,7 @@
           ?> <?= $config['companyName']; ?>. All rights reserved.
         </p>
         <div class="d-flex justify-content-center gap-3" id="menu">
-          <a href="#" class="link-light link-offset-2 text-decoration-underline">Privacy Policy</a>
+          <a href="/cosmeticsstore/privacypolicy" class="link-light link-offset-2 text-decoration-underline">Privacy Policy</a>
           <a href="/cosmeticsstore/termsandpolicy" target="_blank" class="link-light link-offset-2 text-decoration-underline">Terms of Use</a>
           <a href="#" class="link-light link-offset-2 text-decoration-underline">Licences</a>
         </div>
